@@ -1,0 +1,104 @@
+1. https://flaviocopes.com/axios-send-authorization-header/#:~:text=Learn%20how%20to%20send%20the%20authorization%20header%20using%20Axios&text=post()%20call.,axios.
+
+2. https://zetcode.com/javascript/axios/
+
+zetcode.comzetcode.com
+Axios tutorial - GET/POST requests in JavaScript with Axios
+Axios tutorial shows how to generage requests in JavaScript using Axios client library. Axios is a promise based HTTP client for the browser and Node.js.
+
+3. https://dmitripavlutin.com/access-object-keys-values-entries/
+
+Dmitri Pavlutin BlogDmitri Pavlutin Blog
+How to Access Object's Keys, Values, and Entries in JavaScript
+Let's see what utility functions provide JavaScript to extract the keys, values and entries from an object.
+Written by
+Dmitri Pavlutin
+Filed under
+javascript, object
+
+4. sudo kill -9 $(sudo lsof -t -i:3000) ---> Kill Port 
+
+5. cloudnary: itsgaurav14
+pass : Gaurav@123
+
+6. const onClickOutsideListener = () => {
+    alert("click outside")
+    document.removeEventListener("click", onClickOutsideListener)
+  }
+...
+return (
+  <div
+    onMouseLeave={() => {
+          document.addEventListener("click", onClickOutsideListener)
+        }}
+  >
+   ...
+  </div>
+===> When clicked outside of div close modal 
+
+7. xrandr | grep " connected" | cut -f1 -d " "  ==============> CHeck Your System Name
+   xrandr --output VGA-1 --brightness 0.5   ================> Reduce or increase Brigtness 
+   (0.5 to 1 is good  for better visibility)
+
+
+8. https://stackoverflow.com/questions/44330952/filter-array-of-objects-by-multiple-properties-and-values
+
+Stack OverflowStack Overflow
+Filter array of objects by multiple properties and values
+
+9. https://stackoverflow.com/questions/5072136/javascript-filter-for-objects
+
+Stack OverflowStack Overflow
+JavaScript: filter() for Objects
+ECMAScript 5 has the filter() prototype for Array types, but not Object types, if I understand correctly. How would I implement a filter() for Objects in JavaScript? Let's say I have this object...
+
+
+10. https://stackoverflow.com/questions/44240550/filter-array-by-matching-multiple-values-from-another-array
+
+Stack OverflowStack Overflow
+Filter array by matching multiple values from another array
+Objects are added to nodeArray[] once they are selected, some of the nodes are connected together and these links are stored in linkArray[], each object holds the source ID and the target ID of the...
+
+11. https://vercel.com/gauravpant14/lorem-ipsum-generator 
+
+12.shubhom.juneja@gmail.com / Shubhom!!
+
+13. https://www.codersneverquit.in/courses/Redux-toolkit (Best explination of redux toolkit)
+
+14. https://www.taniarascia.com/es6-syntax-and-feature-overview/
+
+taniarascia.comtaniarascia.com
+ES6 Syntax and Feature Overview
+ECMAScript 2015, also known as ES6, introduced many changes to JavaScript. Here is an overview of some of the most common features and…
+
+15. React.memo is helpful and work in condition where we are passing string or primptives so it'll not re-render page again and again ,,if we pass any array or object , then React.memo is not helpful ..
+3:16
+to overcome this prblm we use useMemo hook
+
+Every time you are passing an array ,function ,object into a child component then the child component renders every time , when we do update in something like click a button, so it's better to use a useMemo , memo, useCallBack hook at that time .
+
+16. const [value, setValue] = useState({
+    name:'',
+    url:''
+  })
+  const handleKeyDown = (e) => {
+    let str = e.target.value;
+    str = str.replace(/^\s+/, '');
+    setValue({...value,[e.target.name] : str})
+  } 
+==========> Avoid blank space in begginning
+
+
+17. chrome://flags/
+
+18. How to simplify your codebase with map(), reduce(), and filter() in JavaScript
+    
+   https://www.freecodecamp.org/news/15-useful-javascript-examples-of-map-reduce-and-filter-74cbbb5e0a1f
+
+19. 
+
+
+
+
+
+ 
