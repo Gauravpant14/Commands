@@ -119,6 +119,28 @@ sudo apt-get install ./google-chrome-stable_88.0.4324.96-1_amd64.deb
 
 22 . yarn dev -p PORT_YOU_LIKE (Run next app on diff port)
 
+23 . HOW TO UPDATE NODE :-
+1 :Using the nvm (node version manager) is the best option to update the default version of node.
+
+install or update nvm:
+
+curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.2/install.sh | bash
+or
+
+wget -qO- https://raw.githubusercontent.com/creationix/nvm/v0.33.2/install.sh | bash
+After successful installation, close the terminal and open a new terminal. List the version of nodejs available:
+
+nvm ls-remote
+This will list the available versions of nodejs.
+
+Select the version you want to install:
+
+nvm install xxxxxx
+Check the version:
+
+node -v
+
+
 
 
 
